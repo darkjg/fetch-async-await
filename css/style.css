@@ -31,6 +31,19 @@ header {
   justify-content: center;
   margin-top: 20px;
 }
+.pokemon-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.pokemon-card img {
+  width: 150px;
+  height: 150px;
+}
 
 .error-message {
   color: #d32f2f;
@@ -45,7 +58,7 @@ header {
   border-radius: 4px;
 }
 
-#searchBtn, #prevBtn, #nextBtn, #resetBtn {
+#searchBtn, #prevBtn, #nextBtn, #resetBtn, #favBtn {
   margin: 10px 0;
   padding: 10px;
   border: none;
@@ -65,4 +78,10 @@ header {
 
 #searchBtn:hover, #prevBtn:hover, #nextBtn:hover, #resetBtn:hover {
   opacity: 0.8;
+}
+#btnFavorito {
+  background-color: rgb(255, 136, 0);
+  color: white;
+  border-radius: 3px;
+  width: 60%;
 }
